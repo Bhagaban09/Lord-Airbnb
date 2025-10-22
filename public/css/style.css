@@ -114,6 +114,11 @@ body {
 /* Show Page */
 .show-img {
     height: 40vh;
+    width: 100%;        /* Make image full-width */
+    max-height: 60vh;   /* Adjust height for better aspect ratio */
+    object-fit: cover;  /* Scale image without distortion */
+    border-radius: 1rem;
+    margin-bottom: 1rem;
 }
 
 .btns {
